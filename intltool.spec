@@ -1,8 +1,8 @@
 Summary:	Utility scripts for internationalizing various kinds of data files
 Summary(pl):	Skrypty do internacjonalizacji róznych typów plików z danymi
 Name:		intltool
-Version:	0.12
-Release:	2
+Version:	0.13
+Release:	1
 License:	GPL
 Group:		Development/Tools
 Group(de):	Entwicklung/Werkzeuge
@@ -28,8 +28,8 @@ z plików interfejsów oaf, glade, bonobo, tematów nautilusa i innych
 plików do plików po.
 
 Tak¿e automatycznie w³±cza t³umaczenia z plików po z powrotem do
-plików oaf (koduj±c, by by³y 7-bitowe). Mechanizm ten mo¿e byæ rozszerzony
-o inne rodzaje plików.
+plików oaf (koduj±c, by by³y 7-bitowe). Mechanizm ten mo¿e byæ
+rozszerzony o inne rodzaje plików.
 
 %prep
 %setup -q
