@@ -5,18 +5,6 @@ Version:	0.15
 Release:	1
 License:	GPL
 Group:		Development/Tools
-Group(cs):	Vıvojové prostøedky/Nástroje
-Group(da):	Udvikling/Værktøj
-Group(de):	Entwicklung/Tools
-Group(es):	Desarrollo/Herramientas
-Group(fr):	Development/Outils
-Group(it):	Sviluppo/Tool
-Group(ja):	³«È¯/¥Ä¡¼¥ë
-Group(no):	Utvikling/Verktøy
-Group(pl):	Programowanie/Narzêdzia
-Group(pt):	Desenvolvimento/Ferramentas
-Group(ru):	òÁÚÒÁÂÏÔËÁ/éÎÓÔÒÕÍÅÎÔÙ
-Group(sv):	Utveckling/Verktyg
 Source0:	ftp://ftp.gnome.org/pub/GNOME/stable/sources/intltool/%{name}-%{version}.tar.bz2
 URL:		http://www.gnome.org/
 Provides:	xml-i18n-tools
