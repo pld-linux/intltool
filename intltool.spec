@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Utility scripts for internationalizing various kinds of data files
-Summary(pl):	Skrypty do internacjonalizacji róznych typów plików z danymi
+Summary(pl):	Skrypty do internacjonalizacji ró¿nych typów plików z danymi
 Name:		intltool
 Version:	0.31.3
 Release:	1
