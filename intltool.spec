@@ -11,6 +11,7 @@ Source0:	http://ftp.gnome.org/pub/GNOME/sources/%{name}/0.31/%{name}-%{version}.
 URL:		http://www.gnome.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	perl-XML-Parser
 Requires:	patch
 # not detected automaticaly
 Requires:	perl-XML-Parser
