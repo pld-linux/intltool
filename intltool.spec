@@ -1,8 +1,9 @@
+%include	/usr/lib/rpm/macros.perl
 Summary:	Utility scripts for internationalizing various kinds of data files
 Summary(pl):	Skrypty do internacjonalizacji róznych typów plików z danymi
 Name:		intltool
 Version:	0.27.2
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Tools
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/intltool/0.27/%{name}-%{version}.tar.bz2
@@ -10,6 +11,8 @@ Source0:	http://ftp.gnome.org/pub/GNOME/sources/intltool/0.27/%{name}-%{version}
 URL:		http://www.gnome.org/
 BuildRequires:	automake
 Requires:	patch
+# not detected automaticaly
+Requires:	perl-XML-Parser
 Provides:	xml-i18n-tools
 Obsoletes:	xml-i18n-tools
 BuildArch:	noarch
