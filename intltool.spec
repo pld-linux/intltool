@@ -1,13 +1,15 @@
 %include	/usr/lib/rpm/macros.perl
+%define		snap 20031208
 Summary:	Utility scripts for internationalizing various kinds of data files
 Summary(pl):	Skrypty do internacjonalizacji róznych typów plików z danymi
 Name:		intltool
-Version:	0.27.2
-Release:	2
+Version:	0.28
+Release:	0.%{snap}.1
 License:	GPL
 Group:		Development/Tools
-Source0:	http://ftp.gnome.org/pub/GNOME/sources/intltool/0.27/%{name}-%{version}.tar.bz2
-# Source0-md5:	f93e23788f4f50ab557abcddca9ec47f
+#Source0:	http://ftp.gnome.org/pub/GNOME/sources/intltool/0.27/%{name}-%{version}.tar.bz2
+Source0:	%{name}-%{version}.%{snap}.tar.bz2
+# Source0-md5:	8e07e1eebc1b1b479ea62705343bc139
 URL:		http://www.gnome.org/
 BuildRequires:	automake
 Requires:	patch
