@@ -1,7 +1,7 @@
 Summary:	Utility scripts for internationalizing various kinds of data files
 Summary(pl):	Skrypty do internacjonalizacji róznych typów plików z danymi
 Name:		intltool
-Version:	0.13
+Version:	0.14
 Release:	1
 License:	GPL
 Group:		Development/Tools
