@@ -2,12 +2,14 @@
 Summary:	Utility scripts for internationalizing various kinds of data files
 Summary(pl):	Skrypty do internacjonalizacji róznych typów plików z danymi
 Name:		intltool
-Version:	0.28
-Release:	3
+Version:	0.29
+%define		_snap	20040114
+Release:	0.%{_snap}.1
 License:	GPL
 Group:		Development/Tools
-Source0:	http://ftp.gnome.org/pub/GNOME/sources/intltool/0.28/%{name}-%{version}.tar.bz2
-# Source0-md5:	3be8d3993cadad4329f3671cc1932680
+#Source0:	http://ftp.gnome.org/pub/GNOME/sources/intltool/0.28/%{name}-%{version}.tar.bz2
+Source0:	%{name}-%{version}-%{_snap}.tar.bz2
+# Source0-md5:	2da2421f474b8a7d4a07c09dadd74512
 Patch0:		%{name}-am18.patch
 URL:		http://www.gnome.org/
 BuildRequires:	automake
@@ -37,7 +39,7 @@ plików oaf (koduj±c, by by³y 7-bitowe). Mechanizm ten mo¿e byæ
 rozszerzony o inne rodzaje plików.
 
 %prep
-%setup -q
+%setup -q -n %{name}-%{version}
 %patch0 -p1
 
 %build
