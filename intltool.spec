@@ -15,7 +15,6 @@ BuildRequires:	perl-XML-Parser
 Requires:	patch
 # not detected automaticaly
 Requires:	perl-XML-Parser
-Provides:	xml-i18n-tools
 Obsoletes:	xml-i18n-tools
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
