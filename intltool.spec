@@ -39,8 +39,6 @@ rozszerzony o inne rodzaje plików.
 %configure
 %{__make}
 
-gzip -9nf AUTHORS ChangeLog NEWS README
-
 %install
 rm -rf $RPM_BUILD_ROOT
 
@@ -53,7 +51,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc AUTHORS ChangeLog NEWS README
 %attr(755,root,root) %{_bindir}/*
 %dir %{_datadir}/intltool
 %attr(755,root,root) %{_datadir}/intltool/*
