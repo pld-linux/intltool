@@ -2,10 +2,11 @@ Summary:	Utility scripts for internationalizing various kinds of data files
 Summary(pl):	Skrypty do internacjonalizacji róznych typów plików z danymi
 Name:		intltool
 Version:	0.15
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Tools
 Source0:	ftp://ftp.gnome.org/pub/GNOME/stable/sources/intltool/%{name}-%{version}.tar.bz2
+Patch0:		%{name}-m4.patch
 URL:		http://www.gnome.org/
 Provides:	xml-i18n-tools
 Obsoletes:	xml-i18n-tools
@@ -31,6 +32,7 @@ rozszerzony o inne rodzaje plików.
 
 %prep
 %setup -q
+%patch0 -p1 
 
 %build
 %configure
