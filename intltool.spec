@@ -2,16 +2,17 @@ Summary:	Utility scripts for internationalizing various kinds of data files
 Summary(pl):	Skrypty do internacjonalizacji róznych typów plików z danymi
 Name:		intltool
 Version:	0.18
-Release:	1
+Release:	3
 License:	GPL
 Group:		Development/Tools
 Source0:	ftp://ftp.gnome.org/pub/GNOME/stable/sources/intltool/%{name}-%{version}.tar.bz2
 Patch0:		%{name}-m4.patch
 URL:		http://www.gnome.org/
 Provides:	xml-i18n-tools
-Obsoletes:	xml-i18n-tools
 BuildArch:	noarch
+Requires:	patch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+Obsoletes:	xml-i18n-tools
 
 %description
 Automatically extracts translatable strings from oaf, glade, bonobo
@@ -38,14 +39,14 @@ rozszerzony o inne rodzaje plików.
 %configure
 %{__make}
 
+gzip -9nf AUTHORS ChangeLog NEWS README
+
 %install
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT \
 	aclocaldir=%{_aclocaldir}
-
-gzip -9nf AUTHORS ChangeLog NEWS README
 
 %clean
 rm -rf $RPM_BUILD_ROOT
