@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Development/Tools
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/intltool/%{version}/%{name}-%{version}.tar.bz2
+# Source0-md5: 012643a4e13d4dc1a4770e4bb1da8b3a
 URL:		http://www.gnome.org/
 Provides:	xml-i18n-tools
 BuildArch:	noarch
