@@ -8,6 +8,7 @@ Group:		Development/Tools
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/intltool/0.27/%{name}-%{version}.tar.bz2
 # Source0-md5:	f93e23788f4f50ab557abcddca9ec47f
 URL:		http://www.gnome.org/
+BuildRequires:	automake
 Requires:	patch
 Provides:	xml-i18n-tools
 Obsoletes:	xml-i18n-tools
