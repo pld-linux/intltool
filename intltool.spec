@@ -12,6 +12,7 @@ URL:		http://www.gnome.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	perl-XML-Parser
+BuildRequires:	rpm-perlprov
 Requires:	patch
 # not detected automaticaly
 Requires:	perl-XML-Parser
