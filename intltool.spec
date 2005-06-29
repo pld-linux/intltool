@@ -13,6 +13,7 @@ BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	perl-XML-Parser
 BuildRequires:	rpm-perlprov
+Requires:	aclocal
 Requires:	patch
 # not detected automaticaly
 Requires:	perl-XML-Parser
