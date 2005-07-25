@@ -6,7 +6,7 @@ Version:	0.34
 Release:	1
 License:	GPL v2
 Group:		Development/Tools
-Source0:	http://ftp.gnome.org/pub/GNOME/sources/%{name}/0.34/%{name}-%{version}.tar.bz2
+Source0:	http://ftp.gnome.org/pub/GNOME/sources/intltool/0.34/%{name}-%{version}.tar.bz2
 # Source0-md5:	32c196ae14a90c262310890b498d3512
 URL:		http://www.gnome.org/
 BuildRequires:	autoconf
