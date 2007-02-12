@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Utility scripts for internationalizing various kinds of data files
-Summary(pl):	Skrypty do internacjonalizacji róznych typów plików z danymi
+Summary(pl.UTF-8):   Skrypty do internacjonalizacji rÃ³znych typÃ³w plikÃ³w z danymi
 Name:		intltool
 Version:	0.29
 %define		_snap	20040114
@@ -29,14 +29,14 @@ Automatically merges translations from po files back into .oaf files
 (encoding to be 7-bit clean). I can also extend this merging mechanism
 to support other types of files.
 
-%description -l pl
-Program automatycznie wyci±ga mo¿liwe do przet³umaczenia ci±gi znaków
-z plików interfejsów oaf, glade, bonobo, tematów nautilusa i innych
-plików do plików po.
+%description -l pl.UTF-8
+Program automatycznie wyciÄ…ga moÅ¼liwe do przetÅ‚umaczenia ciÄ…gi znakÃ³w
+z plikÃ³w interfejsÃ³w oaf, glade, bonobo, tematÃ³w nautilusa i innych
+plikÃ³w do plikÃ³w po.
 
-Tak¿e automatycznie w³±cza t³umaczenia z plików po z powrotem do
-plików oaf (koduj±c, by by³y 7-bitowe). Mechanizm ten mo¿e byæ
-rozszerzony o inne rodzaje plików.
+TakÅ¼e automatycznie wÅ‚Ä…cza tÅ‚umaczenia z plikÃ³w po z powrotem do
+plikÃ³w oaf (kodujÄ…c, by byÅ‚y 7-bitowe). Mechanizm ten moÅ¼e byÄ‡
+rozszerzony o inne rodzaje plikÃ³w.
 
 %prep
 %setup -q -n %{name}-%{version}
