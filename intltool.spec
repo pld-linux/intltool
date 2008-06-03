@@ -2,12 +2,12 @@
 Summary:	Utility scripts for internationalizing various kinds of data files
 Summary(pl.UTF-8):	Skrypty do internacjonalizacji różnych typów plików z danymi
 Name:		intltool
-Version:	0.37.1
+Version:	0.40.0
 Release:	1
 License:	GPL v2
 Group:		Development/Tools
-Source0:	http://ftp.gnome.org/pub/GNOME/sources/intltool/0.37/%{name}-%{version}.tar.bz2
-# Source0-md5:	860d392f04299c2740d0752501639c3b
+Source0:	http://ftp.gnome.org/pub/GNOME/sources/intltool/0.40/%{name}-%{version}.tar.bz2
+# Source0-md5:	a51faa2b0e543714f34f05d99a643443
 URL:		http://www.gnome.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
