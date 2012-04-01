@@ -1,0 +1,7 @@
+- release 2,
+- added merge_lines patch with merge each multiline sed commands in
+  xml-i18n-tools.m4 to one long line.
+  This will fix divide by autoconf place all substitution to more than one
+  scripts with sed substitutions. Sometimes during output files from autoconf
+  some sed commends are not placed in one script file and all fails. Lines
+  are longer and harder to reading but all can work coorectly.
