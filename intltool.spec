@@ -12,10 +12,12 @@ URL:		http://www.gnome.org/
 BuildRequires:	autoconf >= 2.53
 BuildRequires:	automake
 BuildRequires:	perl-XML-Parser
+BuildRequires:	perl-base >= 1:5.8.1
 BuildRequires:	rpm-perlprov
 Requires:	patch
 # not detected automaticaly
 Requires:	perl-XML-Parser
+Requires:	perl-base >= 1:5.8.1
 Obsoletes:	xml-i18n-tools
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
