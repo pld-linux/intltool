@@ -41,7 +41,7 @@ rozszerzony o inne rodzaje plików.
 
 %prep
 %setup -q
-%patch0
+%patch -P0
 
 %build
 %{__aclocal}
